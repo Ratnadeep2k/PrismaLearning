@@ -1,15 +1,14 @@
-//ORM help to build DB quary
-//Type Safety 
-//node js code is remain same . 
+# Node.js ORM with Type Safety and Automatic Migrations
 
-;; const user :{
-;;     email :string ,
-;;     username : string,
-;;     password: string 
-;; }
+This project demonstrates how to use an ORM (like Prisma) with **TypeScript** to ensure **type safety** while keeping the Node.js code consistent and simple. It also provides automatic migrations and type-safe database queries.
 
-const user = UserDb.find({
-    email:"abc@gmail.com"
-}) // get back the type of user . 
+## Features
+- **Type Safety**: Queries are fully typed and errors are caught at compile-time.
+- **Simple Queries**: Maintain clean and consistent code while querying the database.
+- **Automatic Migrations**: Keep your database schema up to date with automatic migrations.
 
-//Automatic Migrations
+## Installation
+
+1. Install the required dependencies:
+   ```bash
+   npm install prisma --save
